@@ -1,0 +1,17 @@
+{
+  "name": "clase-31ago",
+  "version": "1.0.0",
+  "description": "primer proyecto node",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node prestart.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angel Gabriel Zaragoza",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  }
+}

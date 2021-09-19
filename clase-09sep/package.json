@@ -1,0 +1,23 @@
+{
+  "name": "clase-09sep",
+  "version": "1.0.0",
+  "description": "Clase Santex 09 Septiembre",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sequelize"
+  ],
+  "author": "Angel Gabriel Zaragoza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

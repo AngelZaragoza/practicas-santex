@@ -1,0 +1,27 @@
+<h1>Componente padre</h1>
+<hr />
+<br />
+<p>
+  Mensaje desde el hijo: <strong>{{ desdeHijo }} </strong>
+</p>
+<br />
+<br />
+<input
+  type="text"
+  #nuevoMensaje
+  (keyup.enter)="modificarMensaje(nuevoMensaje)"
+/>
+<button (click)="modificarMensaje(nuevoMensaje)">
+  Modificar Mensaje desde el Padre
+</button>
+<br />
+<br />
+<br />
+<app-hijo
+  [desdePadre]="mensajePadre"
+  (eventoHijo)="escuchaHijo($event)"
+></app-hijo>
+
+<hr />
+
+<hr />
